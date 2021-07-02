@@ -8,8 +8,7 @@ function convertTime($unix_time, $timezone)
 
 function createWeatherWidget($zip, $loc)
 {
-    $apiKey = 'f20246fe0031204576eef14d5ba486f9';
-    #$apiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+    $apiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
     $lang = 'en';
     $units = 'metric';
     // create a new cURL resource
