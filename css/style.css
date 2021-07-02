@@ -1,0 +1,89 @@
+div.widget-card {
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+.wetter-container {
+  display: flex;
+  flex-direction: column;
+  font-family: basic-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+}
+
+div.wetter-img {
+  margin: -20px auto 0;
+}
+
+img.wetter-img {
+  height: auto;
+  width: 150px;
+}
+
+.wetter-desc {
+  margin: -3px auto 3px;
+  font-size: 12pt;
+}
+
+.wetter-loc {
+  margin: 0 auto 0;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.wetter-temp {
+  margin: 0 auto 0;
+  font-size: 34pt;
+  /* font-weight: bold; */
+}
+
+.wetter-min-max {
+  display: flex;
+  margin: 0 auto 0;
+  font-size: 14pt;
+}
+
+.wetter-max {
+  margin-right: 5px;
+}
+
+.wetter-min {
+  margin-left: 5px;
+}
+
+/* Background */
+.bg-clear-morning {
+  background: #a496b5;
+  background: -webkit-linear-gradient(bottom, #a496b5, #2b4e84);
+  background: -moz-linear-gradient(bottom, #a496b5, #2b4e84);
+  background: linear-gradient(to top, #a496b5, #2b4e84);
+}
+
+.bg-clear-day {
+  background: #6caad5;
+  background: -webkit-linear-gradient(bottom, #6caad5, #0a4f87);
+  background: -moz-linear-gradient(bottom, #6caad5, #0a4f87);
+  background: linear-gradient(to top, #6caad5, #0a4f87);
+}
+
+.bg-clear-evening {
+  background: #d0c1c1;
+  background: -webkit-linear-gradient(bottom, #d0c1c1, #1a4d8c);
+  background: -moz-linear-gradient(bottom, #d0c1c1, #1a4d8c);
+  background: linear-gradient(to top, #d0c1c1, #1a4d8c);
+}
+
+.bg-clear-late-evening {
+  background: #9f8381;
+  background: -webkit-linear-gradient(bottom, #9f8381, #21396b);
+  background: -moz-linear-gradient(bottom, #9f8381, #21396b);
+  background: linear-gradient(to top, #9f8381, #21396b);
+}
+
+.bg-clear-night {
+  background: #3c364a;
+  background: -webkit-linear-gradient(bottom, #3c364a, #111132);
+  background: -moz-linear-gradient(bottom, #3c364a, #111132);
+  background: linear-gradient(to top, #3c364a, #111132);
+}
